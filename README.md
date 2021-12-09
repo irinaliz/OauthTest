@@ -15,8 +15,4 @@ https://developers.naver.com/docs/login/profile/profile.md
 
 pom.xml 추가
 
-<dependency>
-  <groupId>com.google.code.gson</groupId>
-  <artifactId>gson</artifactId>
-  <version>2.8.9</version>
-</dependency>
+https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.9
