@@ -10,8 +10,8 @@ public class NaverBO {
 	private String apiURL;
 	
 	public NaverBO() throws UnsupportedEncodingException {
-		this.client_id = "bzztPwkcwAXHAsOSKtqi";
-		this.client_pw = "5SV_f1VAKg";
+		this.client_id = "Your Client iD";
+		this.client_pw = "Your Client PW";
 		this.callbackURL = URLEncoder.encode("http://localhost:8090/naverCallback.do","UTF-8");
 		this.apiURL = "https://nid.naver.com/oauth2.0/authorize?response_type=code" +
 				"&client_id=" + client_id +
