@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import egov.bo.NaverBO;
 import utils.TestUtil;
 
+/* 네이버 컨트롤러 */
 @Controller
 public class TestController2 {
 	
