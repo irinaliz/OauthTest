@@ -32,8 +32,8 @@ public class TestController2 {
 	}
 	
 	/**
-	 * @param code   	★//인가코드 
-	 * @param state  	★//보안 state CSRF공격 차단을 위해 존재
+	 * @param code   	//인가코드 
+	 * @param state  	//보안 state CSRF공격 차단을 위해 존재
 	 * @param bo	 	//비즈니스 오브젝트 (메소드 내에서 선언해도 문제 없으나 한 곳에 두고 공유하는 것을 권장)
 	 * @param request	//Http 응답
 	 * @return
