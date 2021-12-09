@@ -11,7 +11,7 @@ public class KakaoBO {
 	private String apiURL;
 	
 	public KakaoBO() throws UnsupportedEncodingException {
-		this.client_id = "8fe6cfe27f2054eace2b183b22379311"; //JavaScript Key ( App key )
+		this.client_id = "Your Clinet Key"; //JavaScript Key ( App key )
 		this.client_pw = "5SV_f1VAKg";
 		this.callbackURL = URLEncoder.encode("http://localhost:8090/kakaoCallback.do","UTF-8");
 		this.apiURL = "https://kauth.kakao.com/oauth/authorize?"+
